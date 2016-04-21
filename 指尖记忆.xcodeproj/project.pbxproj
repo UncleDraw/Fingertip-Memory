@@ -27,6 +27,7 @@
 		8070D1CB1C770076005AEBC1 /* UIView+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070D1CA1C770076005AEBC1 /* UIView+Convenient.m */; };
 		8070D1CE1C770341005AEBC1 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070D1CD1C770341005AEBC1 /* CurveView.m */; };
 		8070D1D11C770D95005AEBC1 /* CurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070D1D01C770D95005AEBC1 /* CurveLayer.m */; };
+		80B76D361CC86A5200BB2EF9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B76D351CC86A5200BB2EF9 /* TestViewController.m */; };
 		80BBEFB61C718EF7000DFCD6 /* PresentTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BBEFB51C718EF7000DFCD6 /* PresentTransitionAnimation.m */; };
 		80E3BBD91C71CF3D0001C378 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3BBD81C71CF3D0001C378 /* InteractiveTransition.m */; };
 		80ED6B141C6ECFA70035348E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80ED6B131C6ECFA70035348E /* Default-568h@2x.png */; };
@@ -74,6 +75,8 @@
 		8070D1CD1C770341005AEBC1 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
 		8070D1CF1C770D95005AEBC1 /* CurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveLayer.h; sourceTree = "<group>"; };
 		8070D1D01C770D95005AEBC1 /* CurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveLayer.m; sourceTree = "<group>"; };
+		80B76D341CC86A5200BB2EF9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		80B76D351CC86A5200BB2EF9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		80BBEFB41C718EF7000DFCD6 /* PresentTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTransitionAnimation.h; sourceTree = "<group>"; };
 		80BBEFB51C718EF7000DFCD6 /* PresentTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTransitionAnimation.m; sourceTree = "<group>"; };
 		80E3BBD71C71CF3D0001C378 /* InteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 		805EEFB31C60E23B003ACA19 /* GuideVIew */ = {
 			isa = PBXGroup;
 			children = (
+				80B76D341CC86A5200BB2EF9 /* TestViewController.h */,
+				80B76D351CC86A5200BB2EF9 /* TestViewController.m */,
 			);
 			name = GuideVIew;
 			sourceTree = "<group>";
@@ -475,6 +480,7 @@
 				801F7C661C6F1BA6006114A1 /* TotalCollectionViewCell.m in Sources */,
 				801F7C6A1C6F7103006114A1 /* SummaryViewController.m in Sources */,
 				8070D1C71C76FEF2005AEBC1 /* PullToCurveVeiwFooter.m in Sources */,
+				80B76D361CC86A5200BB2EF9 /* TestViewController.m in Sources */,
 				805EEF931C60DEFF003ACA19 /* AppDelegate.m in Sources */,
 				8070D1CE1C770341005AEBC1 /* CurveView.m in Sources */,
 				80504A3C1C61ADB3004BFC90 /* WBlockCollectionViewCell.m in Sources */,
